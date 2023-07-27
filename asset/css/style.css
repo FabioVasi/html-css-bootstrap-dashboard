@@ -28,9 +28,19 @@ header{
 }
 .logo{
     background-color: white;
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.info{
+    fill: #5b5858;
+    font-size: 24px;
+
 }
 .bell{
     fill: #ff8f00;
+    font-size: 24px;
 }
 /* misura mobile first */
 .side-bar{
@@ -41,6 +51,9 @@ header{
     position: sticky;
     top: 70px;
     left: 0;
+}
+.house:hover{
+    background-color: #6c757dc0;
 }
 .icon{
     display: block;
@@ -73,5 +86,12 @@ header{
     }
     .site-main{
         width: calc(100% - 200px);
+    }
+    .logo{
+        background-color: white;
+        display: block;
+    }
+    .mobile{
+        display: none;
     }
 }
