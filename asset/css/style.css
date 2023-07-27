@@ -29,6 +29,9 @@ header{
 .logo{
     background-color: white;
 }
+.bell{
+    fill: #ff8f00;
+}
 /* misura mobile first */
 .side-bar{
     background-image: url(../img/sidebar-bg.png);
@@ -38,6 +41,18 @@ header{
     position: sticky;
     top: 70px;
     left: 0;
+}
+.icon{
+    display: block;
+    fill: #ffffff;
+    font-size: 30px;
+    width: 48px;
+}
+.home{
+    display: none;
+    font-size: 24px;
+    width: 80px;
+    padding-left: 1rem;
 }
 .site-main{
     width: calc(100vw - 50px);
@@ -53,7 +68,9 @@ header{
     .side-bar{
         width: 200px; /* misura desktop in su */
     } 
-
+    .home{
+        display: block;
+    }
     .site-main{
         width: calc(100% - 200px);
     }
