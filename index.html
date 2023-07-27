@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
   <body class="debug">
-    <header>
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -59,8 +59,8 @@
         </div>
         <div class="container-fluid">
           <div class="row">
-            <div class="left col-xl-8 pt-2 pe-1 ps-1 pb-2">
-              <div class="col-xl-12">
+            <div class="left col-xl-8 col-sm-12 pt-2 pe-1 ps-1 pb-2">
+              <div class="col-xl-12 col-sm-12">
                 <div class="card rounded-2">
                   <div class="card-header">
                     <h2>Prossime classi</h2>
@@ -69,11 +69,11 @@
                     <table class="table table-hover">  
                       <thead>
                         <tr>
-                          <th class="col-md-6 fs-5" scope="col">Nome</th>
-                          <th class="col-md-2 text-center fs-5" scope="col">Data inizio</th>
-                          <th class="col-md-1 text-center fs-5" scope="col">ROI</th>
-                          <th class="col-md-1 text-center fs-5" scope="col">Stato</th>
-                          <th class="col-md-2 text-center fs-5" scope="col">Azioni</th>
+                          <th class="col-md-6 col-sm-6 fs-5" scope="col">Nome</th>
+                          <th class="col-md-2 d-none d-md-table-cell text-center fs-5" scope="col">Data inizio</th>
+                          <th class="col-md-1 d-none d-sm-table-cell text-center fs-5" scope="col">ROI</th>
+                          <th class="col-md-1 col-sm-3 text-center fs-5" scope="col">Stato</th>
+                          <th class="col-md-2 col-sm-3 text-center fs-5" scope="col">Azioni</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -82,8 +82,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 75
                           </td>
-                          <td class="text-center">15 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-success pb-1 ps-1 pe-1 text-white rounded-3">
                               Done
@@ -100,8 +100,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 76
                           </td>
-                          <td class="text-center">16 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">16 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-success pb-1 ps-1 pe-1 text-white rounded-3">
                               Done
@@ -118,8 +118,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 77
                           </td>
-                          <td class="text-center">17 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">17 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-warning pb-1 ps-1 pe-1 text-white rounded-3">
                               process
@@ -136,8 +136,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 78
                           </td>
-                          <td class="text-center">18 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">18 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-success pb-1 ps-1 pe-1 text-white rounded-3">
                               Done
@@ -154,8 +154,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 79
                           </td>
-                          <td class="text-center">19 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">19 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-danger pb-1 ps-1 pe-1 text-white rounded-3">
                               failed
@@ -172,8 +172,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 80
                           </td>
-                          <td class="text-center">20 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">20 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-success pb-1 ps-1 pe-1 text-white rounded-3">
                               Done
@@ -190,8 +190,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 81
                           </td>
-                          <td class="text-center">21 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">21 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-danger pb-1 ps-1 pe-1 text-white rounded-3">
                               failed
@@ -208,8 +208,8 @@
                             <img class="rounded-circle" width="50px" src="./asset/img/class-avatar.jpg" alt="">
                             Classe 82
                           </td>
-                          <td class="text-center">22 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-md-table-cell">22 Feb 2021</td>
+                          <td class="text-center d-none d-sm-table-cell">20%</td>
                           <td class="text-center">
                             <span class="bg-success pb-1 ps-1 pe-1 text-white rounded-3">
                               Done
@@ -226,7 +226,7 @@
                   </div> 
                 </div>
               </div>
-              <div class="col-xl-12">
+              <div class="col-xl-12 col-sm-12">
                 <div class="card rounded-2">
                   <div class="card-header">
                     <h2>F.A.Q.</h2>
@@ -272,8 +272,8 @@
                 </div>
               </div>
             </div>
-            <div class="right col-xl-4 pt-2 pe-1 ps-1 pb-2">
-              <div class="col-xl-12">
+            <div class="right col-xl-4 col-sm-12 pt-2 pe-1 ps-1 pb-2">
+              <div class="col-xl-12 col-sm-12">
                 <div class="card rounded-2">
                   <div class="card-header">
                     <h2>Todo</h2>
@@ -299,7 +299,7 @@
                   
                 </div>
               </div>  
-              <div class="col-xl-12">
+              <div class="col-xl-12 col-sm-12">
                 <div class="card p-4 rounded-2">
                   <div class="card rounded-2">
                     <img src="./asset/img/stats.jpeg" class="card-img-top rounded-2" alt="...">
