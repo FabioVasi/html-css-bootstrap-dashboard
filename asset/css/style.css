@@ -43,6 +43,9 @@ header{
     font-size: 24px;
 }
 /* misura mobile first */
+main{
+    
+}
 .side-bar{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
@@ -70,11 +73,19 @@ header{
 .site-main{
     width: calc(100vw - 50px);
 }
-.banner{
-    width: 100%;
-    height: 400px;
+h1{
+    font-size: 3rem;
+    font-weight: 400;
 }
-
+.square{
+    fill: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border: 1px solid white;
+}
 /* -lg- (>= 992) */
 @media screen and (min-width: 991px) {
     .side-bar{
