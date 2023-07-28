@@ -76,6 +76,15 @@ h1{
     font-size: 3rem;
     font-weight: 400;
 }
+.new{
+    order: 0;
+}
+.boolean{
+    order: 1;
+}
+.student{
+    order: 2;
+}
 .square{
     fill: #ffffff;
     padding: 1rem;
@@ -106,6 +115,15 @@ h1{
     }
     .mobile{
         display: none;
+    }
+    .new{
+        order: 2;
+    }
+    .boolean{
+        order: 0;
+    }
+    .student{
+        order: 1;
     }
 }
 @media screen and (min-width: 1399px) {
