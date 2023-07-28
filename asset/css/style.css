@@ -6,12 +6,8 @@
 :root{
     --body-bg: #f8f9fa;
     --card-title-bg: #f7f7f7;
-    --banner-bg: #1b72e8;
     --btn-banner-bg: #165bba;
     --navbar-bell-color: #ff8f00;
-    --done-bg: #198754;
-    --process-bg: #ffc107;
-    --failed-bg: #dc3545;
     --card-icon-color: #6c757d;
     --navbar-icon-color: #5b5858;
     --sidebar-bg: #051e34;
@@ -32,6 +28,9 @@ header{
 }
 .mobile{
     display: block;
+}
+.lens{
+    width: 75%;
 }
 .info{
     fill: #5b5858;
@@ -79,7 +78,7 @@ h1{
 }
 .square{
     fill: #ffffff;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     width: 50px;
     height: 50px;
@@ -90,7 +89,10 @@ h1{
 @media screen and (min-width: 991px) {
     .side-bar{
         width: 200px; /* misura desktop in su */
-    } 
+    }
+    .lens{
+        width: 100%;
+    }
     .home{
         display: block;
     }
