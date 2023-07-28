@@ -85,13 +85,14 @@ h1{
     font-size: 40px;
     border: 1px solid white;
 }
+
 /* -lg- (>= 992) */
 @media screen and (min-width: 991px) {
     .side-bar{
         width: 200px; /* misura desktop in su */
     }
     .lens{
-        width: 100%;
+        width: 70%;
     }
     .home{
         display: block;
@@ -105,5 +106,10 @@ h1{
     }
     .mobile{
         display: none;
+    }
+}
+@media screen and (min-width: 1399px) {
+    .lens{
+        width: 100%;
     }
 }
