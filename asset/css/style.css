@@ -111,7 +111,6 @@ h1{
     font-size: 40px;
     border: 1px solid white;
 }
-
 /* -lg- (>= 992) */
 @media screen and (min-width: 991px) {
     .side-bar{
